@@ -14,11 +14,8 @@ using System.Management;
 
 namespace ArduinoOLED
 {
-
-
     public partial class Form1 : Form
     {
-
         PerformanceCounter ramCounter;
         PerformanceCounter cpuCounter;
 
@@ -30,7 +27,6 @@ namespace ArduinoOLED
             cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
             ramCounter = new PerformanceCounter("Memory", "Available MBytes");
         }
-
         private void atualizaListaCOMs()
         {
             int i;
@@ -61,18 +57,14 @@ namespace ArduinoOLED
                 return;                     //retorna
             }
 
-            //limpa comboBox
             comboBox1.Items.Clear();
 
-            //adiciona todas as COM diponíveis na lista
             foreach (string s in SerialPort.GetPortNames())
             {
                 comboBox1.Items.Add(s);
             }
-            //seleciona a primeira posição da lista
             comboBox1.SelectedIndex = 0;
         }
-    
 
     private void button1_Click(object sender, EventArgs e)
         {
@@ -82,7 +74,6 @@ namespace ArduinoOLED
                 {
                     serialPort1.PortName = comboBox1.Items[comboBox1.SelectedIndex].ToString();
                     serialPort1.Open();
-
                 }
                 catch
                 {
@@ -93,7 +84,6 @@ namespace ArduinoOLED
                 {
                     btConectar.Text = "Desconectar";
                     comboBox1.Enabled = false;
-
                 }
             }
             else
@@ -157,7 +147,6 @@ namespace ArduinoOLED
             return res;
 
         }
-
         private void timer2_Tick(object sender, EventArgs e)
         {
            

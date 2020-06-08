@@ -53,8 +53,8 @@ void loop()
         display.print("Parsing input failed!");
         return;
       }
-      int CPU = (int)myObject["C"];
-      int RAM = (int)myObject["R"];
+      int CPU = myObject["C"];
+      int RAM = myObject["R"];
   
       if(CPU >= CPU_MED){
         if(CPU>=CPU_MAX){
@@ -106,6 +106,6 @@ void loop()
   
       display.setCursor(20,40);
       display.print(RAM_STR); 
-      delay(1000);
+      delay(900);
   }
 }
