@@ -3,6 +3,12 @@
 Shows the percentage of RAM and CPU used on OLED display from USB(COM) Port.
 [Windows Form C#]
 
+**#Required libraries:** 
+  - **Arduino_JSON**
+  - **Adafruit_GFX**
+  - **Adafruit_SSD1331**
+
+
 **#Devices:** 
   - **Arduino Uno**
   - **OLED Adafruit SSD1331**
