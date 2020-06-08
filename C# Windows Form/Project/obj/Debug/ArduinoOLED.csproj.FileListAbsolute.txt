@@ -1,0 +1,10 @@
+C:\Users\rafae\source\repos\ArduinoOLED\bin\Debug\ArduinoOLED.exe.config
+C:\Users\rafae\source\repos\ArduinoOLED\bin\Debug\ArduinoOLED.exe
+C:\Users\rafae\source\repos\ArduinoOLED\bin\Debug\ArduinoOLED.pdb
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.Form1.resources
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.Properties.Resources.resources
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.csproj.GenerateResource.cache
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.exe
+C:\Users\rafae\source\repos\ArduinoOLED\obj\Debug\ArduinoOLED.pdb
