@@ -82,7 +82,7 @@ namespace ArduinoOLED
                 }
                 if (serialPort1.IsOpen)
                 {
-                    btConectar.Text = "Desconectar";
+                    btConectar.Text = "Disconnect";
                     comboBox1.Enabled = false;
                 }
             }
@@ -93,7 +93,7 @@ namespace ArduinoOLED
                 {
                     serialPort1.Close();
                     comboBox1.Enabled = true;
-                    btConectar.Text = "Conectar";
+                    btConectar.Text = "Connect";
                 }
                 catch
                 {
@@ -103,8 +103,6 @@ namespace ArduinoOLED
             }
         }
     
-
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             atualizaListaCOMs();
@@ -139,9 +137,6 @@ namespace ArduinoOLED
             {
                 res = Convert.ToDouble(result["TotalVisibleMemorySize"]) / 1024;
                 fres = Math.Round((res / (1024 * 1024)), 2);
-
-                //Console.WriteLine("Total usable memory size: " + fres + "GB");
-                //Console.WriteLine("Total usable memory size: " + res/1024 + "KB");
             }
 
             return res;
