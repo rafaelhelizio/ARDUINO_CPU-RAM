@@ -1,7 +1,7 @@
 # ARDUINO CPU|RAM
 
-Shows the percentage of RAM and CPU used on OLED display.
-**Windows Form C#**
+Shows the percentage of RAM and CPU used on OLED display from USB(COM) Port.
+[Windows Form C#]
 
 **#Devices:** 
   - **Arduino Uno**
